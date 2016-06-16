@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "gawk fs "" 必须 ”“ ,,"
+BEGIN { FS = " "}  NF >= 5 { print $0 }  
+
+
+echo "equal ..........."
+
+#cat $1 | awk 'BEGIN { FS = " "}  NF >= 5 { print $0 }'  

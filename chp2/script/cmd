@@ -1,0 +1,40 @@
+Script started on Tue 12 Apr 2016 12:02:37 AM CST
+]0;root@localhost:/home/shell_1/chp2[?1034h[35m[[32m[32m1-[32mroot@[31mlocalhost[35m chp2]# [mls
+cat.sh  cmd  multiblanks.txt  [0m[40;33mscritpfifo[0m  time.log
+[m]0;root@localhost:/home/shell_1/chp2[35m[[32m[32m2-[32mroot@[31mlocalhost[35m chp2]# [mcat s[Kcat.sh 
+#!/bin/bash
+cat multiblanks.txt
+cat -s multiblanks.txt
+
+echo 'tr -s '\n'.........................................'
+cat multiblanks.txt | tr -s '\n'
+
+cat -n multiblanks.txt
+]0;root@localhost:/home/shell_1/chp2[35m[[32m[32m3-[32mroot@[31mlocalhost[35m chp2]# [mls
+cat.sh  cmd  multiblanks.txt  [0m[40;33mscritpfifo[0m  time.log
+[m]0;root@localhost:/home/shell_1/chp2[35m[[32m[32m4-[32mroot@[31mlocalhost[35m chp2]# [mcat -n cat.sh 
+     1	#!/bin/bash
+     2	cat multiblanks.txt
+     3	cat -s multiblanks.txt
+     4	
+     5	echo 'tr -s '\n'.........................................'
+     6	cat multiblanks.txt | tr -s '\n'
+     7	
+     8	cat -n multiblanks.txt
+]0;root@localhost:/home/shell_1/chp2[35m[[32m[32m5-[32mroot@[31mlocalhost[35m chp2]# [ml[Kcat -s c[Kmultiblanks.txt 
+line1+2balnks
+
+line2
+line3-2blanks
+
+line4
+
+def funciton():
+    var = t
+        next = 10 
+        keang
+
+]0;root@localhost:/home/shell_1/chp2[35m[[32m[32m6-[32mroot@[31mlocalhost[35m chp2]# [mexit
+exit
+
+Script done on Tue 12 Apr 2016 12:02:58 AM CST
