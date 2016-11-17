@@ -5,6 +5,7 @@ echo -e "\e[1;35m tr......]"
 echo 
 echo -e "\e[33m tr 'a-z' 'A-Z'大小写换"
 echo "HELLo lu Fell !" | tr 'A-Z' 'a-z'
+echo "123456879" | tr '1-9' 'abcdeftgg'
 
 tr '\n' '......' < tr.sh
 
